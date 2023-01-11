@@ -1,0 +1,19 @@
+#map{
+    width: auto;
+    height: 88vh
+  }
+
+body{
+    background-color: #f3f3f3;
+}
+
+h1{
+    font-family: Verdana;
+    color: #575757;
+    text-align: center;
+}
+
+p{
+    font-family: Verdana;
+    color: #575757;
+}

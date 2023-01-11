@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TPL Nearest Hospitals</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!--These settings are ideal for full-screen mobile use-->
+	<link rel="stylesheet" href="styles.css"/>
+	<!-- mapbox links -->
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+
+    <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+
+</head>
+<body>
+    <h1>Tacoma Public Libraries Hospital Proximity</h1>
+	<div id='map'></div>
+    <p>Select a library or hospital icon on the map to display its name and address. Selecting a library will also display information about the nearest hospital, including proximity</p>
+	<script src="scripts.js"></script>
+    <script src="data/libraries.js"></script>
+	<script src="data/hospitals.js"></script>
+</body>
+</html>
